@@ -29,6 +29,22 @@ func main() {
 }
 ```
 
+## Local Tests
+
+Ran go test -v ./... and all tests passed:
+
+```bash
+go test -v ./...
+```
+
+## Example Run
+
+Ran `go run examples/demo/main.go`:
+
+```bash
+go run examples/demo/main.go
+```
+
 ## Features
 
 - Supports Debug, Info, Warning, and Error log levels.
