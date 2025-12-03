@@ -1,0 +1,30 @@
+.history
+history
+.history/*
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build cache & modules
+/bin/
+/build/
+vendor/
+/dist/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.history
