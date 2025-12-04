@@ -45,6 +45,15 @@ Ran `go run examples/demo/main.go`:
 go run examples/demo/main.go
 ```
 
+Output:
+
+```text
+2025-12-04:18:00:49,165 INFO     [/home/bugsfounder/workspace/logger/examples/demo/main.go:11] main() This is an info message from the default logger
+2025-12-04:18:00:49,165 WARNING  [/home/bugsfounder/workspace/logger/examples/demo/main.go:12] main() This is a warning message
+2025-12-04:18:00:49,165 ERROR    [/home/bugsfounder/workspace/logger/examples/demo/main.go:13] main() This is an error message
+2025-12-04:18:00:49,165 DEBUG    [/home/bugsfounder/workspace/logger/examples/demo/main.go:17] main() This is a debug message from a custom logger
+```
+
 ## Features
 
 - Supports Debug, Info, Warning, and Error log levels.
